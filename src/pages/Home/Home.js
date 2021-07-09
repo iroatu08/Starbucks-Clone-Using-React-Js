@@ -1,20 +1,20 @@
 import React from 'react'
-import Header from '../../componenets/Header/Header';
-import Footer from '../../componenets/Footer/footer';
+import {Link} from 'react-router-dom'
 import './Home.css'; 
+
 
 const Home = () => {
     return (
         <div>
-            <Header/>  <Footer/>
+        
 
        
         <div class="main-container">
             <section class="announcement">
                 <span>
                     Facial coverings are now optional in our stores for our fully vaccinated customers,
-                    following CDC guidance, except where local regulations require it by law.
-                    <a href="http://" target="_blank" rel="">Learn more</a>
+                    following CDC guidance, except where local regulations require it by law. 
+                   <Link to="/learnmore">Learn more</Link>
                 </span>
             </section>
 
@@ -23,7 +23,7 @@ const Home = () => {
                     <h1>FREE COFFEE IS A TAP AWAY</h1>
                     <h3>Join now to start earning Rewards.*</h3>
                     <div class="cta">
-                        Join Now
+                    <Link  to="/joinnow"> Join Now</Link>   
                     </div>
                 </div>
 
@@ -142,4 +142,4 @@ const Home = () => {
     )
 }
 
-export default Home
+export default Home;

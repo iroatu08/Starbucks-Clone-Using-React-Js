@@ -83,10 +83,14 @@
     padding:7px 16px;
     border: 1px solid;
     border-radius: 50px;
-    color:#1e3932;
     font-weight: 600;
     cursor: pointer;
     transition: all 0.2s ease;
+}
+
+.text .cta a{
+    text-decoration: none;
+    color:#1e3932;
 }
 
 .text .cta:hover{
@@ -233,6 +237,7 @@ section{
 
 .top-heading .text span a{
     text-decoration: underline;
+    color: black;
 }
 
 .top-heading .text span a:hover{
