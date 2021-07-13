@@ -14,25 +14,42 @@ header{
     height: 100%;
     display: flex;
     justify-content: space-between;
+    display: flex;
+    align-items: center;
 
 }
 
 
+.hidden{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex:auto;
+}
+.menu-icon {
+    display: none;
+    
+  }
 
 /* LEFT NAVIGATION */
 
 .logo {
     height: 51px;
     width: 51px;
+  
 }
 
 .logo img {
     height: 100%;
+    display: flex;
+    align-items: center;
 }
+
 .left-nav  {
 display: flex;
 height: 100%;
  align-items: center;
+ 
 }
 
 .left-nav nav ul {
@@ -40,23 +57,22 @@ height: 100%;
     margin: 0;
     padding: 0;
     display: flex;
-
-  
+    font-size: 1.4rem;
+    font-weight: 700;
+letter-spacing: 0.1em;
+text-transform: uppercase;
 }
 
 
-.left-nav nav ul a {
+.left-nav a {
 text-decoration:none;
-text-transform: uppercase;
 padding-left: 24px;
-font-weight: 700;
-letter-spacing: 0.1em;
 cursor: pointer;
 color:black;
 
 }
 
-.left-nav nav ul a:hover{
+.left-nav a:hover{
     color:#008248;
 }
 
@@ -74,7 +90,7 @@ align-items: center;
     display: flex;
     align-items: center;
     cursor: pointer;
- 
+ font-size: 1.4rem;
 }
 
 .find-store a {
@@ -99,6 +115,7 @@ align-items: center;
     font-weight: 600;
     line-height: 1.2em;
     cursor: pointer;
+    font-size: 1.4rem;
     
 }
 
@@ -134,3 +151,117 @@ align-items: center;
 
 
 
+@media screen and (max-width: 960px) {
+
+
+    .container__overlay {
+        height: 100vh;
+        left: 0;
+        position: absolute;
+        width: 100%;
+        background: #000;
+        opacity: .38;
+        transition-duration: .3s;
+        transition-property: opacity;
+        transition-timing-function: ease;
+        z-index: -1;
+        right: 0;
+        top: 100px;
+    }
+
+.hidden {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    height: 90vh;
+    position: absolute;
+    top: 100px;
+    right: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+   
+    
+  }
+
+  .hidden.active {
+    background: white;
+    right: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+    box-shadow: inset 0 4px 3px -3px rgb(0 0 0 / 10%), inset 0 4px 2px -2px rgb(0 0 0 / 7%);
+    height: 100vh;
+}
+  
+
+.menu-icon {
+    display: flex;
+    cursor: pointer;
+    top: 0;
+    right: 0;
+    font-size: 2.2rem;
+    /* transform: translate(-90%, 60%); */
+
+  }
+
+  .menu-icon:hover{
+    transition: all .4s ease-in;
+    fill: transparent;
+    opacity: .1;
+    padding: 10px;
+    background: lightblue;
+    border-radius: 50%;
+  
+  }
+
+
+  .fa-times:hover {
+    color: #000;
+  }
+
+  .left-nav{
+      margin: auto;
+      margin-left: 0;
+      height: 0;
+  }
+  .left-nav nav ul{
+    display: flex;
+    flex-direction: column;
+    /* flex-flow: row-reverse; */
+  }
+
+  .right-nav{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    margin-left: 30px;
+
+  }
+  .left-nav nav ul a {
+      padding: 30px;
+      font-size:2.4rem;
+  }
+
+  .find-store {
+    margin-bottom: 15px !important;
+    margin-right: 0;
+    font-weight: 600;
+    cursor: pointer;
+    font-size:1.4rem;
+}
+ .sign-in, .join-now {
+    font-size:1.4rem;
+    margin-right: 20px;
+    margin-bottom: 15px !important;
+    transition: all .2s ease;
+}
+}
+
+@media screen and (max-width: 765px) {
+   .rewards  .left-right-section .text {
+        width: 100%;
+    }
+    
+}
