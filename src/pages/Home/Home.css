@@ -33,23 +33,14 @@
 }
 
  
-/* sections left-right-section*/
+/* sections left-right-section */
 .left-right-section{
     display: flex;
     margin-bottom:32px;
 }
 
-.left-right-section .text{
-    color: #1e3932;
-    width:50%;
-    padding: 32px 48px;
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items:center;
-    background-color:#f1f8f6;
-  
-}
+
+
 .left-right-section .image{
     width:50%;
   display: flex;
@@ -62,25 +53,9 @@
 
 }
 
-.text h1, .text h3{
-    margin: 0;
-    font-weight: 400;
-}
-
-.text h1{
-    margin-bottom: 24px;
-    text-align: center;
-}
-
-.text h3{
-    margin-bottom: 32px;
-    font-size: 19px;
-    text-align: center;
-
-}
-
-.text .cta{
-    padding:7px 16px;
+.left-right-section .cta{
+    font-size:16px;
+    padding:8px 26px;
     border: 1px solid;
     border-radius: 50px;
     font-weight: 600;
@@ -88,35 +63,208 @@
     transition: all 0.2s ease;
 }
 
-.text .cta a{
+.left-right-section .text{
+    width:50%;
+    padding: 32px 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+  
+}
+
+.left-right-section .text > * :not(last-child){
+    margin-bottom: 20px;
+}
+
+
+.left-right-section .text h3{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: -.01em;
+    text-align: center;
+}
+
+
+
+
+.left-right-section  .text > *:not(last-child){
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/***** For reward section*****/
+
+.reward .text{
+    background-color:#D4E9E2;
+    color: #000;
+}
+
+.reward .text strong{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 1;
+}
+.reward .text strong sup{
+font-size: 15px;
+}
+
+
+.reward .text .cta a{
     text-decoration: none;
     color:#1e3932;
 }
 
-.text .cta:hover{
-    padding:7px 32px;
+.reward .text .cta:hover{
+    padding:8px 32px;
     background-color: rgba(30,57,50,.1);
 
 }
 
-.chill .text{
-    background-color: #f2f0eb;
+
+/***** For planet-positive section*****/
+
+.planet .cta a{
+    text-decoration: none;
+    color:#1e3932;
 }
 
-.chill .text h1{
-    font-weight: 700;
-    line-height: 1.2;
-    font-size: 50px;
-    letter-spacing:8px;
+.planet .text{
+    background-color: #D4E9E2;
+    color: #1E3932;
+}
+
+.planet .text strong{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 1;
+}
+
+.planet .text .cta:hover{
+    padding:8px 32px;
+    background-color: rgba(30,57,50,.1);
 
 }
 
-.chill .text h3{
-    font-size:24px;
-    line-height: 1.5;
+/***** For iced shaken of awakening section *****/
+
+.iced .text{
+    background-color: #1E3932;
+    color: #ffffff;
 }
 
+.iced .text strong{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 1;
+}
 
+.iced .cta a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.iced .text .cta:hover{
+    background-color: #ffffff1f;
+    padding:8px 32px;
+}
+
+/***** For taste of tomorrow section*****/
+
+.taste .text{
+    background-color: #1E3932;
+    color: #ffffff;
+}
+
+.taste .text strong{
+   font-size: 24px;
+}
+
+.taste .text h3{
+    font-size: 18px;
+    line-height: 2
+ }
+
+ .taste .text .cta:hover{
+    background-color: #ffffff1f;
+    padding:8px 32px;
+}
+
+/***** For Earning 4500 Bonus Star section*****/
+   
+.earning .text{
+    background-color: #D4E9E2;;
+    color: #1e3932;
+}
+
+.earning .text strong{
+   font-size: 24px;
+}
+
+.earning .text h3{
+    font-size: 18px;
+    line-height: 2
+ }
+
+ .earning .text h3 sup{
+    font-size: 10px;
+ 
+ }
+
+ .earning .cta a{
+    text-decoration: none;
+    color:#1e3932;
+}
+
+ 
+.earning .text .cta:hover{
+    padding:8px 32px;
+    background-color: rgba(30,57,50,.1);
+
+}
+
+/***** For Picnic Star section*****/
+
+   
+.picnic .text{
+    background-color: #D4E9E2;;
+    color: #1e3932;
+}
+
+.picnic .text strong{
+   font-size: 24px;
+}
+
+.picnic .text h3{
+    font-size: 18px;
+    line-height: 2
+ }
+
+ .picnic .text h3 sup{
+    font-size: 10px;
+ 
+ }
+
+ .picnic .cta a{
+    text-decoration: none;
+    color:#1e3932;
+}
+
+ 
+.picnic .text .cta:hover{
+    padding:8px 32px;
+    background-color: rgba(30,57,50,.1);
+
+}
 
 /*top-bottom-section sections */
 section{

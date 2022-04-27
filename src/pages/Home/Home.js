@@ -18,98 +18,113 @@ const Home = () => {
                 </span>
             </section>
 
-            <section class="rewards left-right-section">
+            <section class="reward left-right-section">
+            
+            <div class="image">
+                    <img src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-77814.jpg" alt=""
+                        srcset="" />
+                </div>
+
                 <div class="text">
-                    <h1>FREE COFFEE IS A TAP AWAY</h1>
-                    <h3>Join now to start earning Rewards.*</h3>
+                    <strong>Sign up for Starbucks<sup>®</sup> Rewards</strong>
+                    <h3>Starting 4/22, get 25 Stars when you bring your clean, reusable cup into the café. Stars can quickly add up to Rewards.*</h3>
                     <div class="cta">
                     <Link  to="/joinnow"> Join Now</Link>   
                     </div>
                 </div>
 
-                <div class="image">
-                    <img src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-71056.png" alt=""
-                        srcset="" />
-                </div>
-
+              
             </section>
 
-            <section class="chill left-right-section">
-
-                <div class="image">
-                    <img src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-72037.jpg" alt=""
-                        srcset="" />
-                </div>
-                <div class="text">
-                    <h1>DELIGHTFULLY CHILL</h1>
-                    <h3>Refresh your day with the bright, tropical flavors of our Star Drink and Kiwi Starfruit
-                        Starbucks Refreshers® beverage.
+            <section class="planet left-right-section">
+            <div class="text">
+                    <strong>Planet-positive tips</strong>
+                    <h3>April is earth month, but our commitment to reducing our environmental impact is year round. Try these tips on your next Starbucks visit.
                     </h3>
                     <div class="cta">
-                        Order iced beverage
+                        Learn how
                     </div>
                 </div>
-
-            </section>
-
-            <section>
-                <div class="top-bottom-section">
-                    <div class="section-container">
-                        <div class="image">
-                            <img src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-70203.jpg" alt=""
-                                srcset="" />
-                        </div>
-                        <div class="text">
-                            <h1>Order and pick up. Easy as that.</h1>
-                            <h3>Just open the app, order your favorites, and enjoy contactless pay. From there, choose whichever pickup method is best for you.</h3>
-                           
-                               <div class="cta-container">
-                                   <div class="cta">
-                                    See pickup options
-                                   </div>
-                               </div>
-                           
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="top-bottom-section">
-                    <div class="section-container">
-                        <div class="image">
-                            <img src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-72045.jpg" alt=""
-                                srcset="" />
-                        </div>
-                        <div class="text">
-                            <h1>Floating into summer like…</h1>
-                            <h3>Keep the laid-back vibes going. Order Starbucks drinks on Uber Eats.**</h3>
-                            <div class="cta-container">
-                                <div class="cta">
-                                    Order now
-                                </div>
-                            </div>
-                           
-                        </div>
-
-
-                    </div>
-                </div>
-            </section>
-            
-            <section class="stories left-right-section"> 
-                <div class="text">
-                    <h1>Creating positive change</h1>
-                    <h3>We believe coffee can help fuel connection and strengthen communities. See how our partners (employees) are uplifting neighborhoods everywhere.</h3>
-                    <div class="cta">
-                        See how
-                    </div>
-                </div>
-
                 <div class="image">
-                    <img src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-71657.jpg" alt=""
+                    <img src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-77659.jpg" alt=""
                         srcset="" />
                 </div>
+                
+
             </section>
+
+            <section class="iced left-right-section">
+            
+            <div class="image">
+                    <img src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-77232.jpg" alt=""
+                        srcset="" />
+                </div>
+
+                <div class="text">
+                    <strong>Iced shaken awakening</strong>
+                    <h3>Introducing our new Iced Toasted Vanilla Oatmilk Shaken Espresso with rich, creamy layers and nondairy goodness.</h3>
+                    <div class="cta">
+                    <Link  to="/joinnow"> Order Now</Link>   
+                    </div>
+                </div>
+
+              
+            </section>
+
+            <section class="taste left-right-section">
+            <div class="text">
+                    <strong>Taste of tomorrow</strong>
+                    <h3>The trailblazing Starbucks Odyssey Blend™ boldly envisions a more sustainable future for the coffee industry.
+                    </h3>
+                    <div class="cta">
+                        Order how
+                    </div>
+                </div>
+                <div class="image">
+                    <img src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-77700.jpg" alt=""
+                        srcset="" />
+                </div>
+                
+
+            </section>
+
+            <section class="earning left-right-section">
+            
+            <div class="image">
+                    <img src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-75418.jpg" alt=""
+                        srcset="" />
+                </div>
+
+                <div class="text">
+                    <strong>Earning 4,500 Bonus Stars is Super Starifying</strong>
+                    <h3>Earn more Stars and even more Rewards with a <b>$0 intro annual fee for your first year</b> with the Starbucks<sup>®</sup> Rewards Visa<sup>®</sup> Card. Plus your Stars won’t expire – an exclusive Starbucks benefit for cardmembers. Now that’s Super Starifying.</h3>
+                    <div class="cta">
+                    <Link  to="/joinnow"> Learn more</Link>   
+                    </div>
+                </div>
+
+              
+            </section>
+
+            <section class="picnic left-right-section">
+            <div class="text">
+                    <strong>Let us bring the picnic to you</strong>
+                    <h3>Order your Starbucks<sup>®</sup> favorites on Uber Eats today.**
+                    </h3>
+                    <div class="cta">
+                        Order now
+                    </div>
+                </div>
+                <div class="image">
+                    <img src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-77836.jpg" alt=""
+                        srcset="" />
+                </div>
+                
+
+            </section>
+
+
+         
 
             <section class="heading">
                 <div class="top-heading">
